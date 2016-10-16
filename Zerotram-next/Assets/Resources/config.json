@@ -1,0 +1,106 @@
+{
+	"version" : "0.1",
+	"stations" : [
+			{
+			  "name" : "swamp",
+			  "level" : 0,
+			  "background" : "sketchbook_swamp",
+			  "foreground" : "station",
+			  "specialItems" : [
+			    { "name" : "paper"},
+			    { "name" : "cogwheel"},
+			    { "name" : "ink"},
+			    { "name" : "oil"}
+			  ],
+			  "characters" : [
+			  { "name" : "gnome"},
+			  { "name" : "ostrich"}
+			  ],
+			  "maxCharacters" : 2
+			},
+			{
+			  "name" : "mountain",
+			  "level" : 0,
+			  "background" : "mountains",
+			  "foreground" : "station",
+			  "specialItems" : [
+			    { "name" : "ink"}
+			  ],
+			  "characters" : [
+			  { "name" : "gnome"}
+			  ],
+			  "maxCharacters" : 1
+			},
+			{
+			  "name" : "town",
+			  "level" : 0,
+			  "background" : "station1",
+			  "foreground" : "station",
+			  "specialItems" : [
+			    { "name" : "cogwheel"}
+			  ],
+			  "characters" : [
+			  { "name" : "ostrich"}
+			  ],
+			  "maxCharacters" : 3
+			}
+		],
+	"characters" : {
+	  "gnome" : {
+	    "prefabName" : "gnome",
+	    "stationCount" : 10,
+	    "hp" : 100,
+	    "velocity" : 2,
+	    "attack" : 20,
+	    "vision" : 2,
+	    "initiative" : 2,
+	    "accuracy" : 60,
+	    "range" : 1,
+	    "bravery" : 70,
+	    "agility" : 40
+	  },
+	  "ostrich" : {
+	    "prefabName" : "ostrich",
+	    "stationCount" : 10,
+	    "hp" : 100,
+	    "velocity" : 5,
+	    "attack" : 20,
+	    "vision" : 2,
+	    "initiative" : 2,
+	    "accuracy" : 60,
+	    "range" : 1,
+	    "bravery" : 70,
+	    "agility" : 40
+	  }
+	},
+	"specialItems" : [
+	  {
+            "name" : "paper",
+	    "canTake" : "true",
+	    "interactWith" : "ink",
+	    "interactMessage" : "paper_ink",
+	    "probability" : 30
+	  },
+	  {
+            "name" : "ink",
+	    "canTake" : "true",
+	    "interactWith" : "paper",
+	    "interactMessage" : "paper_ink",
+	    "probability" : 30
+	  },
+	  {
+            "name" : "cogwheel",
+	    "canTake" : "true",
+	    "interactWith" : "oil",
+	    "interactMessage" : "cogwheel_oil",
+	    "probability" : 30
+	  },
+	  {
+            "name" : "oil",
+	    "canTake" : "true",
+	    "interactWith" : "cogwheel",
+	    "interactMessage" : "cogwheel_oil",
+	    "probability" : 30
+	  }
+	]
+}

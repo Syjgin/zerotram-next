@@ -1,0 +1,41 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PersistentData/PassengerStorage.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UI/InventoryDraggableImage.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/MessageHider.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Station/BackgroundScaler.cs" Line="13" Column="41" />
+      <File FileName="Assets/Scripts/Math/Randomizer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UI/InventoryScroller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Station/Units/Spawner.cs" Line="23" Column="87" />
+      <File FileName="Assets/Scripts/SpecialItems/SpawnedSpecialItem.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Station/StationForeground.cs" Line="20" Column="42" />
+      <File FileName="Assets/Scripts/Station/TramAnimator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Station/Units/StationPassenger.cs" Line="4" Column="30" />
+      <File FileName="Assets/Scripts/Info/PassengerInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Info/SpecialItemInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PersistentData/ConfigReader.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PersistentData/CurrentStation.cs" Line="8" Column="2" />
+      <File FileName="Assets/Scripts/PersistentData/PassengerStorage.cs" Line="29" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Zerotram-next" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="PersistentData" expanded="True">
+                  <Node name="PassengerStorage.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
